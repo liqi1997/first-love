@@ -1,15 +1,19 @@
 {
   "name": "first-love",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "A TypeScript Library",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup --config",
     "jest": "jest --init",
     "test": "jest",
     "docs": "typedoc --out docs src/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "TypeScript",
+    "JavaScript"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -21,6 +25,7 @@
     "babel-jest": "^27.3.1",
     "jest": "^27.3.1",
     "rollup": "^2.59.0",
+    "rollup-plugin-dts": "^4.0.0",
     "rollup-plugin-uglify": "^6.0.4",
     "tslib": "^2.3.1",
     "typedoc": "^0.22.7",

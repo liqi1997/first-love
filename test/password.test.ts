@@ -1,6 +1,6 @@
 import { passwordValidator } from "../src";
 
-test('validate password', () => {
+test('Validate password', () => {
     expect(passwordValidator('123')).toBe(false);
     expect(passwordValidator('abc')).toBe(false);
     expect(passwordValidator('ABC')).toBe(false);
